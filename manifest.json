@@ -1,0 +1,33 @@
+{
+    // Required
+    "manifest_version": 2,
+    "name": "PHP.net random function",
+    "version": "1.0",
+    "author": "Mauro Donadio",
+    
+	"permissions": [
+		"tabs", "http://*/*", "https://*/*"
+	],
+
+    // Recommended
+    "description": "PHP.net random function - Mauro Donadio",
+    "icons": {
+        "16": "images/16.png",
+        "48": "images/48.png",
+        "128": "images/128.png"
+    },
+
+    "browser_action": {
+        "default_icon": {
+            "19": "images/19.png",
+            "38": "images/38.png"
+        },
+        "default_title": "PHP.net random functions"
+    },
+
+    "background": {
+    	"persistent": false,
+        "scripts": ["js/jquery-1.10.2.js","data/data.js","js/php-rf.js"]
+    }
+
+}
