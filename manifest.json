@@ -1,16 +1,10 @@
 {
-    // Required
     "manifest_version": 2,
-    "name": "PHP.net random function",
+    "name": "PHP.net random functions",
+	"short_name": "PHP random functions",
     "version": "1.0",
-    "author": "Mauro Donadio",
-    
-	"permissions": [
-		"tabs", "http://*/*", "https://*/*"
-	],
-
-    // Recommended
-    "description": "PHP.net random function - Mauro Donadio",
+	
+	"description": "This Chrome extension opens, in the current tab, a function from PHP.net.",
     "icons": {
         "16": "images/16.png",
         "48": "images/48.png",
@@ -25,9 +19,15 @@
         "default_title": "PHP.net random functions"
     },
 
+    "author": "Mauro Donadio",
     "background": {
     	"persistent": false,
         "scripts": ["js/jquery-1.10.2.js","data/data.js","js/php-rf.js"]
-    }
+    },
 
+	"homepage_url": "http://maurodonadio.wordpress.com/2014/03/04/php-net-random-functions/",
+
+	"permissions": [
+		"<all_urls>", "tabs", "activeTab"
+	]
 }
