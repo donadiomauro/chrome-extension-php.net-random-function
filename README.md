@@ -1,7 +1,7 @@
-Chrome Extension "PHP.net random function"
+Chrome Extension "PHP.net random functions"
 =============================
 
-This Chrome extension opens, in the current tab, a new random function from PHP.net.
+This Chrome extension opens, in the current tab, a function from PHP.net.
 
 This first release will draw one of the currently 991 functions available.
 The functions list is taken from onlinephpfunctions.com and is based on PHP 5.5.5.
