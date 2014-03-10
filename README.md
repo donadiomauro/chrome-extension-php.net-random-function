@@ -23,5 +23,5 @@ Alternative for developers: checkout the repository, and select the local direct
 That's it!
 
 == HOW TO USE ==
- - 
+ - click on the icon on the top right, it will open a random php function from the php.net website into the current tab
 
